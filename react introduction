@@ -1,0 +1,44 @@
+                                                              Introduction
+
+
+
+
+1. What is React?
+    - React is an open-source JavaScript library developed by Facebook for building user interfaces or UI components.
+
+2. What are the key features of React?
+    - Virtual DOM for better performance
+    - JSX for writing HTML within JavaScript
+    - Component-based architecture for reusability and maintainability
+    - Unidirectional data flow using props and state
+
+3. What is JSX in React?
+    - JSX stands for JavaScript XML. It's a syntax extension used with React that allows mixing HTML-like code in JavaScript.
+
+4. What are components in React?
+    - Components are the building blocks of a React application. They are independent and reusable pieces of code that define a part of the user interface.
+
+5. What is the difference between state and props in React?
+    - Props (short for properties) are used to pass data from parent to child components in a unidirectional flow. They are immutable.
+    - State is managed within a component and can be updated using `setState()`. It represents the internal state of the component.
+
+6. What is the purpose of `setState()` in React and how does it work?
+    - `setState()` is used to update the state of a React component. It schedules an update to a component’s state object, causing React to re-render the component and its children.
+
+7. What are controlled and uncontrolled components in React?
+    - Controlled components: Components where form data is controlled by React state. The value of the input field is controlled by React.
+    - Uncontrolled components: Components where form data is handled by the DOM itself. The form data is handled by the DOM and accessed via refs in React.
+
+8. What are React lifecycle methods?
+    - Lifecycle methods are special methods that are invoked at specific phases of a component’s life. They include `componentDidMount`, `componentDidUpdate`, `componentWillUnmount`, etc.
+
+9. What is the significance of keys in React lists?
+    - Keys are used to identify unique Virtual DOM elements in a list. They help React identify which items have changed, are added, or are removed. They improve performance and help in efficient rendering of lists.
+
+10. What are Higher-Order Components (HOCs) in React?
+    - Higher-Order Components are functions that take a component and return a new component with extended functionality. They enable code reuse, logic sharing, and composability in React applications.
+
+11. What are React Hooks?
+    - React Hooks are functions that let you use state and other React features in functional components. They allow you to use state and other React features without writing a class.
+
+Preparing for a React.js interview involves understanding the core concepts, state management, component lifecycle, and modern practices like hooks and context API. Practice and hands-on experience are crucial for mastering React.js interview questions.
